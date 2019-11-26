@@ -29,7 +29,7 @@ public class LambdaTest2 {
     }
 
     //1.消费性接口1
-    //加入git中
+    //加入git中,加入提交到本地仓库
     public static void happy(double money, Consumer<Double> consumer) {
 
         consumer.accept(money);
